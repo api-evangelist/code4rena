@@ -1,0 +1,61 @@
+# Code4rena
+
+## Code4rena
+
+- [Code4rena](https://docs.code4rena.com/readme.md): Community-driven competitions for smart contract audits
+- [Getting started](https://docs.code4rena.com/getting-started.md): Code4rena registration and account management
+- [Joining competitions and bounties](https://docs.code4rena.com/getting-started/how-to-participate.md)
+- [Competitions](https://docs.code4rena.com/competitions.md): How competitive audits work at Code4rena
+- [Submission guidelines](https://docs.code4rena.com/competitions/submission-guidelines.md): Best practices and recommendations for submitting to Code4rena competitions.
+- [Severity classifications](https://docs.code4rena.com/competitions/severity-categorization.md): Severity definitions for Code4rena audits
+- [Judging criteria](https://docs.code4rena.com/competitions/judging-criteria.md)
+- [Post-judging QA (PJQA)](https://docs.code4rena.com/competitions/judging-criteria/post-judging-qa-pjqa.md)
+- [Live code rules](https://docs.code4rena.com/competitions/live-code-rules.md)
+- [Submission limits](https://docs.code4rena.com/competitions/submission-limits.md)
+- [Restricted competitions and C4 mitigation reviews](https://docs.code4rena.com/competitions/restricted-competitions-and-c4-mitigation-reviews.md): Why some competition details are kept private
+- [Bounties](https://docs.code4rena.com/bounties.md): How bug bounties work at Code4rena
+- [Severity classifications](https://docs.code4rena.com/bounties/bounty-criteria.md): Severity definitions for Code4rena bug bounties
+- [Awarding](https://docs.code4rena.com/awarding.md): Code4rena's incentive model and awarding algorithm
+- [Awarding process](https://docs.code4rena.com/awarding/awarding-process.md)
+- [Ranked curve model](https://docs.code4rena.com/awarding/curve-logic.md)
+- [Historical info](https://docs.code4rena.com/awarding/historical-info.md)
+- [Advancement and roles](https://docs.code4rena.com/roles.md)
+- [Signal metrics](https://docs.code4rena.com/roles/signal.md)
+- [Certification (ID verification)](https://docs.code4rena.com/roles/certification-id-verification.md)
+- [SR Wardens](https://docs.code4rena.com/roles/sr-wardens.md)
+- [Judges](https://docs.code4rena.com/roles/judges.md): Judges decide the severity, validity, and quality of findings and rate the performance of wardens.
+- [Scouts](https://docs.code4rena.com/roles/scouts.md)
+- [Sponsors](https://docs.code4rena.com/sponsors.md)
+- [Platform Guide](https://docs.code4rena.com/platform-guide.md): How to use the in-app tools at code4rena.com
+- [Platform guide for sponsors](https://docs.code4rena.com/platform-guide/platform-guide-for-sponsors.md): Code4rena platform documentation for sponsors
+- [Your audit dashboard](https://docs.code4rena.com/platform-guide/platform-guide-for-sponsors/your-audit-dashboard.md)
+- [Warden Q\&A](https://docs.code4rena.com/platform-guide/platform-guide-for-sponsors/warden-q-and-a.md): Responding to questions from Code4rena wardens (auditors)
+- [Viewing submissions](https://docs.code4rena.com/platform-guide/platform-guide-for-sponsors/viewing-submissions.md)
+- [Comments](https://docs.code4rena.com/platform-guide/platform-guide-for-sponsors/comments.md)
+- [Platform guide for wardens](https://docs.code4rena.com/platform-guide/platform-guide-for-wardens.md): Code4rena platform documentation for Wardens (security researchers)
+- [Participate in audits](https://docs.code4rena.com/platform-guide/platform-guide-for-wardens/participate-in-audits.md)
+- [Sponsor Q\&A](https://docs.code4rena.com/platform-guide/platform-guide-for-wardens/sponsor-q-and-a.md): How to ask questions about a codebase you're auditing
+- [The audit dashboard](https://docs.code4rena.com/platform-guide/platform-guide-for-wardens/the-audit-dashboard.md)
+- [Comments on submissions](https://docs.code4rena.com/platform-guide/platform-guide-for-wardens/comments-on-submissions.md)
+- [Leaderboard and profiles](https://docs.code4rena.com/platform-guide/platform-guide-for-wardens/leaderboard-and-profiles.md)
+- [Legal](https://docs.code4rena.com/legal.md)
+- [Code4rena Terms of Service](https://docs.code4rena.com/legal/terms-of-service.md)
+- [Submission policy](https://docs.code4rena.com/legal/submission-policy.md)
+- [Privacy Policy](https://docs.code4rena.com/legal/privacy-policy.md)
+- [Code4rena Code of Conduct](https://docs.code4rena.com/legal/code4rena-code-of-conduct.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.code4rena.com/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

@@ -1,8 +1,28 @@
 aid: code4rena
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/code4rena.png
 name: Code4rena
-description: 'Code4rena is a company surfaced as a portfolio company of paradigm and added to the API
-  Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Code4rena (C4) is a competitive smart-contract security auditing platform
+  that connects Web3/DeFi projects (sponsors) with a global community of security researchers
+  (wardens) through time-boxed competitive audits and ongoing bug bounties. Sponsors
+  fund an audit, wardens compete to surface vulnerabilities, and judges rate severity,
+  validity, and quality to distribute awards via a ranked-curve incentive model. Over
+  five years the platform ran 512+ audits, engaged 16,600+ researchers, and surfaced
+  26,898 findings including 1,607 high-severity vulnerabilities. Code4rena announced
+  it is winding down operations, seeing active competitions and bounties through to
+  completion. This API Evangelist profile was surfaced as a paradigm portfolio company;
+  the platform is web/app-based with GitBook documentation and does not publish a public
+  REST/GraphQL API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/code4rena/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Security
+- Smart Contracts
+- Web3
+- DeFi
+- Auditing
+- Bug Bounty
+- Blockchain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,32 @@ maintainers:
 common:
 - type: Website
   url: https://code4rena.com
+- type: Documentation
+  url: https://docs.code4rena.com
+- type: GettingStarted
+  url: https://docs.code4rena.com/getting-started
+- type: Support
+  url: https://code4rena.com/help
+- type: GitHubOrganization
+  url: https://github.com/code-423n4
+- type: TermsOfService
+  url: https://docs.code4rena.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://docs.code4rena.com/legal/privacy-policy
+- type: Security
+  url: https://code4rena.com/.well-known/security.txt
+- type: SecurityTxt
+  url: well-known/code4rena-security.txt
+- type: WellKnown
+  url: well-known/code4rena-well-known.yml
+- type: LLMsTxt
+  url: llms/code4rena-llms.txt
+- type: VulnerabilityDisclosure
+  url: security/code4rena-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/code4rena-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
